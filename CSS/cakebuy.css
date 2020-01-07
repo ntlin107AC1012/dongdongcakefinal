@@ -1,0 +1,119 @@
+.header{
+    display: none;
+}
+html {
+    width: 1920px;
+ 
+ }
+ body{
+    margin: 0px;
+}
+ .layout {
+    background-color: white;
+    
+    margin-left: auto;
+ margin-right: auto;
+ margin-top: 0px;
+ margin-bottom: 0px;
+ padding: 0px;
+}
+.cake{
+    display: flex;
+    background-color: rgb(94,15,33);
+    height: 180px;
+}
+.cakeimage{
+    height: 95px;
+    width: 364px;
+    margin-left: 778px;
+    margin-top: 51.5px;
+   
+}
+.fbbtn{
+   height: 31px;
+   width: 15px;
+   margin-top: 65px;
+   margin-left: 550px;
+}
+.twbtn{
+    height: 31px;
+    width: 37px;
+    margin-top: 65px;
+    margin-left: 30px;
+}
+.igbtn{
+    height: 33px;
+    width: 33px;
+    margin-top: 65px;
+    margin-left: 30px;
+}
+.brandbackground{
+    background-color: rgb(242, 219, 200);
+  
+
+}
+.pdimg{
+    height: 700px;
+    width: 1920px;
+    margin: 0px;
+    border: 0px;
+}
+.money{
+    height: 147px;
+    background-color: rgb(242, 219, 200);
+    display: flex;
+}
+.moneytxt1{
+    height: 46px;
+    width: 78px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.moneytxt2{
+    height: 42px;
+    width: 266px;
+    margin-top: 52px;
+    margin-left: 30px;
+}
+.money_topdown{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+.amount{
+    margin-left: 20px;
+    background-color: white;
+    width: 266px;
+    height: 58px;
+    margin-top: 40px;
+}
+footer{
+    display: flex;
+    height: 300px;
+    background: rgb(94,15,33);
+    
+    
+}
+.footertxt{
+    color: rgb(242, 219, 200);
+    width: 490px;
+    height: 33px;
+    margin-top: 100px;
+    margin-left: 350px;
+}
+.cakeimagefot{
+    height: 95px;
+    width: 364px;
+    margin-left: 60px;
+    margin-top: 120px;
+}
+.contactimg2{
+    width: 490px;
+    height: 33px;
+    margin-top: 140px;
+    margin-left: 100px;
+}

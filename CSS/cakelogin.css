@@ -1,0 +1,159 @@
+.header{
+    display: none;
+}
+html {
+    width: 1920px;
+ 
+ }
+ body{
+    margin: 0px;
+}
+ .layout {
+    background-color: white;
+    
+    margin-left: auto;
+ margin-right: auto;
+ margin-top: 0px;
+ margin-bottom: 0px;
+ padding: 0px;
+}
+.cake{
+    display: flex;
+    background-color: rgb(94,15,33);
+    height: 180px;
+}
+.cakeimage{
+    height: 95px;
+    width: 364px;
+    margin-left: 778px;
+    margin-top: 51.5px;
+   
+}
+.fbbtn{
+   height: 31px;
+   width: 15px;
+   margin-top: 65px;
+   margin-left: 550px;
+}
+.twbtn{
+    height: 31px;
+    width: 37px;
+    margin-top: 65px;
+    margin-left: 30px;
+}
+.igbtn{
+    height: 33px;
+    width: 33px;
+    margin-top: 65px;
+    margin-left: 30px;
+}
+.gif{
+    width: 1920px;
+    height: 458px;
+    background: url(image/1.gif) no-repeat center;
+}
+.login{
+    height: 500px;
+    background-color: rgb(242, 219, 200);
+}
+.login_account{
+      
+    width: 267px;
+    height: 26px;
+    margin-left: 625px;
+    margin-top: 50px;
+    
+}
+
+.login_form{
+    border-color: rgb(94,15,33);
+    width: 670px;
+    height: 50px;
+    margin-left: 625px;
+}
+.login_no{
+    width: 670px;
+    color: rgb(94,15,33);
+    text-decoration: underline;
+    text-align: right;
+    margin-left: 625px;
+    font-weight: bold;
+}
+.login_no:hover{
+    color: white;
+}
+.login_password{
+    width: 170px;
+    height: 26px;
+    margin-left: 625px;
+}
+
+.login_forget{
+    width: 670px;
+    color: rgb(94,15,33);
+    text-decoration: underline;
+    text-align: right;
+    margin-left: 625px;
+    font-weight: bold;
+}
+.login_forget:hover{
+    color: white;
+}
+.login_fb{
+    margin-top: 10px;
+    background-color: rgb(94,15,33);
+    color: rgb(242, 219, 200);
+    width: 670px;
+    height: 50px;
+    margin-left: 625px; 
+    line-height:50px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.login_fb:hover{
+    background-color: rgb(216,171,138);
+    color: white;
+}
+.login_sign{
+    margin-top: 10px;
+    background-color: rgb(94,15,33);
+    color: rgb(242, 219, 200);
+    width: 670px;
+    height: 60px;
+    margin-left: 625px; 
+    line-height:60px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.login_sign:hover{
+    background-color: rgb(216,171,138);
+    color: white;
+}
+footer{
+    display: flex;
+    height: 300px;
+    background: rgb(94,15,33);
+    
+    
+}
+.footertxt{
+    color: rgb(242, 219, 200);
+    width: 490px;
+    height: 33px;
+    margin-top: 100px;
+    margin-left: 350px;
+}
+.cakeimagefot{
+    height: 95px;
+    width: 364px;
+    margin-left: 60px;
+    margin-top: 120px;
+}
+.contactimg2{
+    width: 490px;
+    height: 33px;
+    margin-top: 140px;
+    margin-left: 100px;
+}

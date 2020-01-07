@@ -1,0 +1,1417 @@
+
+@media (max-width: 1920px){
+    .header{
+        display: none;
+    }
+html {
+   width: 1920px;
+
+}
+.loading{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgb(94,15,33);
+    z-index: 9999;
+}
+
+body{
+    margin: 0px;
+}
+.layout {
+    background-color: white;
+    
+    margin-left: auto;
+ margin-right: auto;
+ margin-top: 0px;
+ margin-bottom: 0px;
+ padding: 0px;
+}
+.cake{
+    display: flex;
+    background-color: rgb(94,15,33);
+    height: 180px;
+}
+.cakeimage{
+    height: 95px;
+    width: 364px;
+    margin-left: 778px;
+    margin-top: 51.5px;
+   
+}
+.fbbtn{
+   height: 31px;
+   width: 15px;
+   margin-top: 65px;
+   margin-left: 550px;
+}
+.twbtn{
+    height: 31px;
+    width: 37px;
+    margin-top: 65px;
+    margin-left: 30px;
+}
+.igbtn{
+    height: 33px;
+    width: 33px;
+    margin-top: 65px;
+    margin-left: 30px;
+}
+.showmenu{
+	display: none;
+}
+.nav_list{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(242, 219, 200);
+}
+.nav-sublist{
+    
+    
+    width: 300px;
+    display: none;
+    list-style: none;
+    position: absolute;
+    
+    padding: 0px;
+    background-color: rgb(242, 219, 200);
+    text-align: center;
+    opacity: 0.9;
+    z-index: 9999;
+}
+.nav-sublist-text-1{
+    font-size: 26px;
+    color: rgb(75, 8,22);
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 36px;
+    font-weight: bolder;
+}
+.nav-sublist-text{
+    font-size: 18px;
+    color: rgb(75, 8,22);
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 36px;
+    font-weight: 700;
+}
+.nav-sublist-text-a{
+    color: rgb(75, 8,22);
+    
+}
+.nav-sublist-text-story{
+    color: rgb(75, 8,22);
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: left;
+    font-weight: 700;
+    padding-left: 36px;
+}
+
+.nav_item_a:hover{
+    background-color: rgb(216,171,138);
+    color: white;
+}
+.nav_item:hover> .nav_item_a{
+    background-color: rgb(216,171,138);
+    color: white;
+}
+
+a{
+    text-decoration-line: none;
+    
+    
+}
+.nav_item_a{
+    display: block;
+
+    color: rgb(75, 8,22);
+    font-size: 26px;
+    padding: 15px 36px;
+    border-bottom: none;
+    
+}
+.topic{
+    color: rgb(75, 8,22);
+    font-size: 26px;
+    padding: 15px 36px;
+}
+.poduct{
+    color: rgb(75, 8,22);
+    font-size: 26px;
+    padding: 15px 36px;
+}
+.brand{
+    color: rgb(75, 8,22);
+    font-size: 26px;
+    padding: 15px 36px;
+}
+.story{
+    color: rgb(75, 8,22);
+    font-size: 26px;
+    padding: 15px 36px;
+}
+.shop{
+    color: rgb(75, 8,22);
+    font-size: 26px;
+    padding: 15px 36px;
+}
+/*topic*/
+#cake1 a {
+    background-image: url(../image/CAKE1.png);
+    display: block;
+    font-size: 0;
+    height: 762px;/*圖片高度*/
+    width: 1920px;/*圖片寬度*/
+    }
+    
+#cake1 a:hover {
+    background-image: url(../image/CAKE2.png);
+    }
+
+ #cake2 a {
+        background-image: url(../image/CAKE3.png);
+        display: block;
+        font-size: 0;
+        height: 762px;/*圖片高度*/
+        width: 1920px;/*圖片寬度*/
+        }
+        
+#cake2 a:hover {
+        background-image: url(../image/CAKE4.png);
+        }
+#cake3 a {
+                background-image: url(../image/CAKE11.jpg);
+                display: block;
+                font-size: 0;
+                height: 690px;/*圖片高度*/
+                width: 1920px;/*圖片寬度*/
+                }
+                
+ #cake3 a:hover {
+                background-image: url(../image/CAKE12.jpg);
+                }    
+
+ #cake4 a {
+                background-image: url(../image/CAKE7.jpg);
+                display: block;
+                font-size: 0;
+                height: 600px;/*圖片高度*/
+                width: 1920px;/*圖片寬度*/
+                }
+                
+ #cake4 a:hover {
+                background-image: url(../image/CAKE8.png);
+                }
+.today{
+    display: flex;
+}
+.line{
+    width: 766px;
+    height: 6px;
+    margin-top: 24px;
+}
+.line-1{
+    width: 790px;
+    height: 6px;
+    margin-top: 24px;
+}
+.line-shop{
+    width: 870px;
+    height: 6px;
+    margin-top: 24px;
+}
+.line-shop2{
+    width: 850px;
+    height: 6px;
+    margin-top: 24px;
+}
+.todaytext{
+    width: 362px;
+    height: 49px;
+}
+.tdy{
+    display: flex;
+    height: 400px;
+    
+    margin-bottom: 20px;
+}
+.tdyimg{
+    margin-left: 460px;
+    width: 972px;
+    height: 400px;
+}
+.reserve{
+    display: none;
+    width: 63px;
+    height: 354px;
+    margin-top: 46px;
+    
+}
+.tdy2{
+    
+    height: 400px;
+    
+}
+.tdyimg2{    
+    margin-left: 503px;
+    width: 972px;
+    height: 400px;
+}
+.pdimg{
+    height: 700px;
+    width: 1920px;
+    margin: 0px;
+    border: 0px;
+}
+.money{
+    height: 147px;
+    background-color: rgb(242, 219, 200);
+    display: flex;
+}
+.moneytxt1{
+    height: 46px;
+    width: 78px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.moneytxt2{
+    height: 42px;
+    width: 266px;
+    margin-top: 52px;
+    margin-left: 30px;
+}
+.moneytxt3{
+    height: 46px;
+    width: 78px;
+    margin-top: 50px;
+    margin-left: 76px;
+}
+.moneytxt4{
+    height: 42px;
+    width: 266px;
+    margin-top: 52px;
+    margin-left: 30px;
+}
+.moneytxt5{
+    height: 74px;
+    width: 404px;
+    margin-top: 36px;
+    margin-left: 93px;
+}
+.moneytxt6{
+    height: 42px;
+    width: 266px;
+    margin-top: 52px;
+    margin-left: 30px;
+}
+.moneytxt7{
+    height: 42px;
+    width: 266px;
+    margin-top: 52px;
+    margin-left: 30px;
+}
+.buy{
+    position: absolute;
+    margin: 0px;
+    width: 267px;
+    height: 108px;
+    left: 408px;
+    top: 965px;
+    display: none;
+    
+}
+.buy2{
+    position: absolute;
+    margin: 0px;
+    width: 267px;
+    height: 108px;
+    left: 858px;
+    top: 965px;
+    display: none;
+}
+.buy3{
+    position: absolute;
+    margin: 0px;
+    width: 267px;
+    height: 108px;
+    left: 408px;
+    top: 2580px;
+    display: none;
+}
+.buy4{
+    position: absolute;
+    margin: 0px;
+    width: 267px;
+    height: 108px;
+    left: 858px;
+    top: 2580px;
+    display: none;
+}
+.igdtext{
+    display: flex;
+    margin-top: 20px;
+}
+.igdline{
+    width: 856px;
+    height: 6px;
+    margin-top: 24px;
+}
+.igd{
+    width: 208px;
+    height: 49px;
+}
+.igdimg{
+    margin-top: 40px;
+    height: 663px;
+    width: 1387px;
+    margin-left: 266px;
+    margin-bottom: 40px;
+}
+.chepdimg{
+    height: 650px;
+    width: 1920px;
+    
+   
+    
+}
+.cheigdimg{
+    height: 1535px;
+    width: 1421px;
+    margin-left: 249px;
+    margin-top: 40px;
+}
+.brandtext{
+    display: flex;
+    margin-top: 20px;
+}
+.historytext{
+    height: 673px;
+    width: 1359px;
+    margin-top: 40px;
+    margin-left: 280px;
+}
+.chef{
+    height: 794px;
+    width: 1359px;
+    margin-top: 40px;
+   margin-left: 280px;
+}
+/*story*/
+
+.gif{
+    width: 1920px;
+    height: 458px;
+    background: url(../image/2.gif) no-repeat center;
+}
+.c10{
+    position: absolute;
+      top: 1150px;
+      left: 240px;
+      display: none;
+     
+
+}
+.c1{
+    margin-left: 1000px;
+    margin-top: 100px;
+    
+}
+.c20{
+    position: absolute;
+    top: 2000px;
+    left: 840px;
+    display: none;
+}
+.c2{
+    margin-top: 300px;
+    margin-left: 240px;
+}
+.c30{
+    position: absolute;
+    top: 2800px;
+    left: 240px;
+    display: none;
+}
+.c3{
+    margin-top: 300px;
+    margin-left: 1000px;
+}
+.c40{
+    position: absolute;
+    top: 3650px;
+    left: 740px;
+    display: none;
+}
+.c4{
+    margin-top: 300px;
+    margin-left: 240px;
+    margin-bottom: 400px;
+}
+footer{
+    display: flex;
+    height: 300px;
+    background: rgb(94,15,33);
+    margin-top: 40px;
+    
+}
+.footertxt{
+    color: rgb(242, 219, 200);
+    width: 490px;
+    height: 33px;
+    margin-top: 100px;
+    margin-left: 350px;
+}
+.cakeimagefot{
+    height: 95px;
+    width: 364px;
+    margin-left: 60px;
+    margin-top: 120px;
+}
+.contactimg{
+    height: 77px;
+    width: 380px;
+    margin-left: 380px;
+    margin-top: 120px;
+    
+}
+.contactimg2{
+    width: 490px;
+    height: 33px;
+    margin-top: 140px;
+    margin-left: 100px;
+}
+.hide{
+    position: absolute;
+    height: 600px;
+    width: 400px;
+    left: 350px;
+    opacity: 0;
+}
+.strawberrytxt{
+    position: absolute;
+    height: 77px;
+    width: 153px;
+    left: 250px;
+    top: 625px;
+}
+.strawberrytxt2{
+    position: absolute;
+    height: 77px;
+    width: 174px;
+    left: 600px;
+    top: 380px;
+}
+#progressbar{
+    height: 26px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 200px;
+    background: rgb(242, 219, 200);
+    border-radius: 10px;
+    margin: -20px 0 0 -100px;
+    padding: 2px;
+  }
+  #loading{
+    transition: all 500ms ease;
+    height: 20px;
+    width: calc(100% - 10px);
+    border-radius: 8px;
+    background: #474747;
+    position: absolute;
+    margin: 3px;
+    display: inline-block;
+    animation: load 3s ease infinite;
+  }
+  #load{
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -30px;
+    color: rgb(242, 219, 200);
+  }
+  
+  @keyframes load{
+    0%{
+      width: 2%;
+    }
+    10%{
+      width: 10%;
+    }
+  }
+  .brandbackground{
+    background-color: rgb(242, 219, 200);
+  }
+
+}
+@media (max-width: 768px){
+    .header{
+        display: none;
+    }
+    html{
+        width: 768px;
+    } 
+    #progressbar{
+        height: 26px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 200px;
+        background: rgb(242, 219, 200);
+        border-radius: 10px;
+        margin: -20px 0 0 -100px;
+        padding: 2px;
+      }
+      #loading{
+        transition: all 500ms ease;
+        height: 20px;
+        width: calc(100% - 10px);
+        border-radius: 8px;
+        background: #474747;
+        position: absolute;
+        margin: 3px;
+        display: inline-block;
+        animation: load 3s ease infinite;
+      }
+      #load{
+        font-family: Arial;
+        font-weight: bold;
+        text-align: center;
+        margin-top: -30px;
+        color: rgb(242, 219, 200);
+      }
+      
+      @keyframes load{
+        0%{
+          width: 2%;
+        }
+        10%{
+          width: 10%;
+        }
+      }
+      .brandbackground{
+        background-color: rgb(242, 219, 200);
+      }
+    
+    .loading{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background: rgb(94,15,33);
+        z-index: 9999;
+    }
+    body{
+        margin: 0px;
+    }
+    .layout {
+        background-color: white;
+        width: 768px;
+        margin-left: auto;
+     margin-right: auto;
+     margin-top: 0px;
+     margin-bottom: 0px;
+     padding: 0px;
+    }
+    .cake{
+        display: flex;
+        background-color: rgb(94,15,33);
+        height: 180px;
+    }
+    .cakeimage{
+        height: 95px;
+        width: 364px;
+        margin-left: 202px;
+        margin-top: 51.5px;
+       
+    }
+    .fbbtn{
+        height: 31px;
+        width: 15px;
+        margin-top: 70px;
+        margin-left: 30px;
+     }
+     .twbtn{
+         height: 31px;
+         width: 37px;
+         margin-top: 70px;
+         margin-left: 30px;
+     }
+     .igbtn{
+         height: 33px;
+         width: 33px;
+         margin-top: 70px;
+         margin-left: 30px;
+     }
+     .showmenu{
+        display: none;
+    }
+     .nav_list{
+         width: 768px;
+        height: 53px;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        background-color: rgb(242, 219, 200);
+    }
+    .nav-sublist{
+        
+        
+        width: 150px;
+        display: none;
+        list-style: none;
+        position: absolute;
+        
+        padding: 0px;
+        background-color: rgb(242, 219, 200);
+        text-align: center;
+        opacity: 0.9;
+        z-index: 9999;
+    }
+    .nav-sublist-text-1{
+        font-size: 20px;
+        color: rgb(75, 8,22);
+        margin-top: 20px;
+        text-align: left;
+        padding-left: 18px;
+        font-weight: bolder;
+    }
+    .nav-sublist-text{
+        font-size: 18px;
+        color: rgb(75, 8,22);
+        margin-bottom: 10px;
+        text-align: left;
+        padding-left: 18px;
+        font-weight: 700;
+    }
+    .nav-sublist-text-a{
+        color: rgb(75, 8,22);
+        
+    }
+    .nav-sublist-text-story{
+        color: rgb(75, 8,22);
+        margin-top: 20px;
+        font-size: 18px;
+        text-align: left;
+        font-weight: 700;
+        padding-left: 18px;
+    }
+    
+    .nav_item_a:hover{
+        background-color: rgb(216,171,138);
+        color: white;
+    }
+    .nav_item:hover> .nav_item_a{
+        background-color: rgb(216,171,138);
+        color: white;
+    }
+    
+    a{
+        text-decoration-line: none;
+        
+        
+    }
+    .nav_item_a{
+        display: block;
+    
+        color: rgb(75, 8,22);
+        font-size: 20px;
+        padding: 15px 18px;
+        border-bottom: none;
+        
+    }
+    .topic{
+        color: rgb(75, 8,22);
+        font-size: 20px;
+        padding: 15px 18px;
+    }
+    .poduct{
+        color: rgb(75, 8,22);
+        font-size: 20px;
+        padding: 15px 18px;
+    }
+    .brand{
+        color: rgb(75, 8,22);
+        font-size: 20px;
+        padding: 15px 18px;
+    }
+    .story{
+        color: rgb(75, 8,22);
+        font-size: 20px;
+        padding: 15px 18px;
+    }
+    .shop{
+        color: rgb(75, 8,22);
+        font-size: 20px;
+        padding: 15px 18px;
+    }
+    .today{
+        display: flex;
+    }
+    .line{
+        width: 256px;
+        height: 6px;
+        margin-top: 24px;
+    }
+    .line-1{
+        width: 256px;
+        height: 6px;
+        margin-top: 24px;
+    }
+    .todaytext{
+        width: 256px;
+        height: 40px;
+    }
+    .tdy{
+        display: flex;
+        height: 225px;
+        
+        margin-bottom: 20px;
+    }
+    .tdyimg{
+        margin-left: 141px;
+        width: 486px;
+        height: 200px;
+    }
+    .reserve{
+        display: none;
+        width: 31px;
+        height: 177px;
+        margin-top: 25px;
+        
+    }
+    .tdy2{
+    
+        height: 225px;
+        
+    }
+    .tdyimg2{    
+        margin-left: 163px;
+        width: 486px;
+        height: 225px;
+    }
+    /*product*/
+    .brandbackground{
+        background-color: rgb(242, 219, 200);
+      }
+      .hide{
+          display: none;
+      }
+      .strawberrytxt{
+display: none;
+      }
+      .strawberrytxt2{
+          display: none;
+      }
+    .pdimg{
+        height: 350px;
+        width: 768px;
+        margin: 0px;
+        border: 0px;
+    }
+    .money{
+        height: 100px;
+        background-color: rgb(242, 219, 200);
+        display: flex;
+    }
+    .moneytxt1{
+        height: 50px;
+        width: 78px;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+    .moneytxt2{
+    height: 30px;
+    width: 120px;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+.moneytxt3{
+    height: 50px;
+    width: 78px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.moneytxt4{
+    height: 30px;
+    width: 120px;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+.moneytxt5{
+    height: 48px;
+    width: 200px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.buy{
+    position: absolute;
+    display: none;
+    margin: 0px;
+    width: 120px;
+    height: 50px;
+    left: 130px;
+    top: 613px;
+
+}
+.buy2{
+    position: absolute;
+    margin: 0px;
+    width: 120px;
+    height: 50px;
+    left: 385px;
+    top: 613px;
+    display: none;
+}
+/*成分介紹*/
+.igdtext{
+    display: flex;
+    margin-top: 10px;
+    
+}
+
+.igdline{
+    width: 334px;
+    height: 6px;
+    margin-top: 24px;
+}
+.igd{
+    width: 100px;
+    height: 40px;
+}
+.igdimg{
+    margin-top: 40px;
+    height: 300px;
+    width: 700px;
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+/*栗子*/
+.chepdimg{
+    height: 350px;
+    width: 768px;   
+}
+.moneytxt6{
+    height: 30px;
+    width: 120px;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+.moneytxt7{
+    height: 30px;
+    width: 120px;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+.buy3{
+    position: absolute;
+    display: none;
+    margin: 0px;
+    width: 120px;
+    height: 50px;
+    left: 130px;
+    top: 1480px;
+}
+.buy4{
+    position: absolute;
+    margin: 0px;
+    width: 120px;
+    height: 50px;
+    left: 385px;
+    top: 1480px;
+    display: none;
+}
+/*栗子成分*/
+.cheigdimg{
+    height: 1400px;
+    width: 700px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+/*廚師*/
+.brandtext{
+    display: flex;
+    margin-top: 10px;
+}
+.line{
+    width: 234px;
+    height: 6px;
+    margin-top: 24px;
+}
+.line-1{
+    width: 234px;
+    height: 6px;
+    margin-top: 24px;
+}
+.todaytext{
+    width: 300px;
+    height: 40px;
+}
+.historytext{
+    height: 400px;
+    width: 700px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.chef{
+    height: 400px;
+    width: 700px;
+    margin-top: 40px;
+   margin-left: 30px;
+}
+    /*footer*/
+    footer{
+        display: flex;
+        height: 200px;
+        background: rgb(94,15,33);
+        margin-top: 40px;
+        
+    }
+    .footertxt{
+        color: rgb(242, 219, 200);
+        height: 154px;
+        width: 380px;
+        margin-left: 250px;
+        margin-top: 50px;
+    }
+    .cakeimagefot{
+        height: 47px;
+        width: 182px;
+        margin-left: 60px;
+        margin-top: 76px;
+    }
+    .contactimg{
+        height: 154px;
+        width: 380px;
+        margin-left: 100px;
+        margin-top: 23px;
+        
+    }
+    .contactimg2{
+        display: none;
+    }
+   
+}
+@media (max-width: 320px){
+    
+    #progressbar{
+        height: 26px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 200px;
+        background: rgb(242, 219, 200);
+        border-radius: 10px;
+        margin: -20px 0 0 -100px;
+        padding: 2px;
+      }
+      #loading{
+        transition: all 500ms ease;
+        height: 20px;
+        width: calc(100% - 10px);
+        border-radius: 8px;
+        background: #474747;
+        position: absolute;
+        margin: 3px;
+        display: inline-block;
+        animation: load 3s ease infinite;
+      }
+      #load{
+        font-family: Arial;
+        font-weight: bold;
+        text-align: center;
+        margin-top: -30px;
+        color: rgb(242, 219, 200);
+      }
+      
+      @keyframes load{
+        0%{
+          width: 2%;
+        }
+        10%{
+          width: 10%;
+        }
+      }
+      .brandbackground{
+        background-color: rgb(242, 219, 200);
+      }
+    
+    .loading{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background: rgb(94,15,33);
+        z-index: 9999;
+    }
+    html{
+        width: 320px;
+        background-color: rgb(242, 219, 200);
+    }
+    body{
+        width: 320px;
+        margin: 0px;
+    }
+    .layout{
+        width: 320px;
+        margin: 0px;
+        background-color: rgb(242, 219, 200);
+    }
+    .cake{
+        height: 89px;
+        width: 320px;
+        background-color: rgb(94,15,33);
+    }
+    .cakeimage{
+        margin-left: 80px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 160px;
+        height: 65px;
+    }
+    .fbbtn{
+        display: none;
+    }
+    .igbtn{
+        display: none;
+    }
+    .twbtn{
+        display: none;
+    }
+    .navbox{
+        display: none;
+        
+    }
+    .tab-inner{
+        margin-top: 60px;
+    }
+    .header{
+        display: block;
+        position: relative;
+        height: 0;
+        background-color: rgb(216,171,138);
+        color: rgb(94,15,33);
+    }
+    
+    .menu{
+        list-style: none;
+        background-color: rgb(216,171,138);
+        float: right;
+        /*隱藏選單開始*/
+        max-height: 0;
+        overflow: hidden;
+        /*隱藏選單結束*/
+        /*漸變效果*/
+        transition: max-height 2.3s;
+        
+        /*絕對定位疊在網頁上*/
+        position: absolute;
+        /*權重*/
+        z-index: 9999;
+        /*header 80px+1px boder 線條*/
+        top: 35px;
+        /* left:0 right:0表示滿版 */
+        left: 0;
+           right: 0;
+        
+        color: rgb(94,15,33);
+    }
+    .menu li{
+        float: none;
+        color: rgb(94,15,33);
+        
+        background-color: rgb(216,171,138);
+    }
+    .menu li a{
+        transition: all 0.3s;
+        display: block;
+        text-decoration: none;
+        color: rgb(94,15,33);
+      }
+    .menu li a:hover{
+        background-color: rgb(216,171,138);
+        color: white;
+      }
+    .showmenu{
+        display: block;
+        float: right;
+        margin: 1em;
+        height: 20px;
+      }
+      /*jQuery點擊後動態在 body 加上 class */
+      .menu-show .menu{
+          max-height: 300px;
+          color: rgb(94,15,33);
+      }
+      .nav-sublist .li{
+          display: none;
+      }
+      .nav-sublist-text-1{
+          display: none;
+      }
+      .nav-sublist-text{
+          display: none;
+      }
+      .hr{
+          display: none;
+      }
+      
+      .today{
+        display: flex;
+    }
+    .line{
+        width: 106px;
+        height: 6px;
+        margin-top: 12px;
+    }
+    .line-1{
+        width: 106px;
+        height: 6px;
+        margin-top: 12px;
+    }
+    .todaytext{
+        width: 108px;
+        height: 30px;
+    }
+    .tdy{
+        display: flex;
+        height: 100px;
+        
+        margin-bottom: 20px;
+    }
+    .tdyimg{
+        margin-left: 35px;
+        width: 250px;
+        height: 100px;
+    }
+    .reserve{
+        display: none;
+        width: 25px;
+        height: 85px;
+        margin-top: 15px;
+        
+    }
+    .tdy2{
+        
+        height: 100px;
+        
+    }
+    .tdyimg2{    
+        margin-left: 45px;
+        width: 250px;
+        height: 100px;
+    }
+    /*product*/
+    .brandbackground{
+        background-color: rgb(242, 219, 200);
+      }
+      .hide{
+          display: none;
+      }
+      .strawberrytxt{
+    display: none;
+      }
+      .strawberrytxt2{
+          display: none;
+      }
+    .pdimg{
+        height: 120px;
+        width: 320px;
+        margin: 0px;
+        border: 0px;
+    }
+    .money{
+        width: 320px;
+        height: 40px;
+        background-color: rgb(242, 219, 200);
+        display: flex;
+    }
+    .moneytxt1{
+        margin-left: 50px;
+        height: 25px;
+        width: 39px;
+        margin-top: 7px;
+        
+    }
+    .moneytxt2{
+        margin-top: 5px;
+    height: 20px;
+    width: 70px;
+    margin-left: 10px;
+    
+    }
+    .moneytxt3{
+        margin-left: 10px;
+        height: 25px;
+        width: 39px;
+        margin-top: 7px;
+    
+    }
+    .moneytxt4{
+        margin-top: 5px;
+        height: 20px;
+        width: 70px;
+        margin-left: 10px;
+    }
+    .moneytxt5{
+        display: none;
+    height: 48px;
+    width: 100px;
+    
+    }
+    .buy{
+    position: absolute;
+    display: none;
+    margin: 0px;
+    width: 73px;
+    height: 25px;
+    left: 97px;
+    top: 278px;
+    
+    }
+    .buy2{
+    position: absolute;
+    margin: 0px;
+    width: 73px;
+    height: 25px;
+    left: 227px;
+    top: 278px;
+    display: none;
+    }
+    /*成分介紹*/
+    .igdtext{
+        display: flex;
+        
+        
+    }
+    
+    .igdline{
+        width: 106px;
+        height: 6px;
+        margin-top: 10px;
+    }
+    .igd{
+        width: 108px;
+        height: 25px;
+    }
+    .igdimg{
+        margin-top: 10px;
+        height: 300px;
+        width: 300px;
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+    /*栗子*/
+    .chepdimg{
+        height: 120px;
+        width: 320px;
+        margin: 0px;
+        border: 0px;  
+    }
+    .moneytxt6{
+        margin-top: 5px;
+    height: 20px;
+    width: 70px;
+    margin-left: 10px;
+    }
+    .moneytxt7{
+        margin-top: 5px;
+        height: 20px;
+        width: 70px;
+        margin-left: 10px;
+    }
+    .buy3{
+        position: absolute;
+        display: none;
+        margin: 0px;
+        width: 73px;
+        height: 25px;
+        left: 97px;
+        top: 790px;
+    }
+    .buy4{
+        position: absolute;
+        margin: 0px;
+        width: 73px;
+        height: 25px;
+        left: 227px;
+        top: 790px;
+        display: none;
+    }
+    .cheigdimg{
+        
+        width: 310px;
+    height: 443px;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    /*廚師*/
+    .brandtext{
+        display: flex;
+        margin-top: 10px;
+    }
+    .line{
+        width: 106px;
+        height: 6px;
+        margin-top: 10px;
+    }
+    .line-1{
+        width: 106px;
+        height: 6px;
+        margin-top: 10px;
+    }
+    .todaytext{
+        width: 108px;
+        height: 30px;
+    }
+    .historytext{
+        height: 200px;
+        width: 300px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .chef{
+        height: 300px;
+        width: 300px;
+        margin-top: 10px;
+       margin-left: 10px;
+    }
+    
+    
+    /*footer*/
+    footer{
+        display: flex;
+        height: 150px;
+        background: rgb(94,15,33);
+        margin-top: 40px;
+        
+    }
+    .footertxt{
+        color: rgb(242, 219, 200);
+        height: 60px;
+        width: 180px;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    .cakeimagefot{
+        height: 47px;
+        width: 90px;
+        margin-left: 30px;
+        margin-top: 60px;
+    }
+    
+    .contactimg2{
+        display: none;
+    }
+}
